@@ -109,6 +109,7 @@ def reformat(path):
 
         if "accessories" in event:
             new_format["new_accessory"] = event["accessories"]
+            new_format["remove_accessory"] = event["accessories"]
 
         new_format["m_c"] = {}
         new_format["m_c"]["age"] = []
