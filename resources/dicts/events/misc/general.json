@@ -19,7 +19,7 @@
     "sub_type": ["accessory"],
     "weight": 1000,
     "event_text": "PLACEHOLDER ACC REMOVAL TEST",
-    "remove_accessory": []
+    "remove_accessory": ["any"]
     "m_c": {
       "age": ["any"],
       "status": ["any"]
