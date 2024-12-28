@@ -356,8 +356,8 @@ class HandleShortEvents:
         """
         if "misc" not in self.types:
             self.types.append("misc")
-        acc_list_R = getattr(self.main_cat.pelt.inventory, [])
-        
+        acc_list_R = getattr(self.main_cat.pelt.inventory, 'remove_accessory', [])
+
         if acc_list_R:
             remove_acc = random.choice(acc_list_R)
             self.main_cat.pelt.accessories.remove(remove_acc)
