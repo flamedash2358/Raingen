@@ -13,6 +13,19 @@
     }
   },
   {
+    "event_id": "acc_removal_TEST",
+    "location": ["any"],
+    "season": ["any"],
+    "sub_type": ["accessory"],
+    "weight": 1000,
+    "event_text": "PLACEHOLDER ACC REMOVAL TEST",
+    "remove_accessory": []
+    "m_c": {
+      "age": ["any"],
+      "status": ["any"]
+    }
+  },
+  {
     "event_id": "gen_misc_any_bodypaint",
     "location": ["any"],
     "season": ["any"],
